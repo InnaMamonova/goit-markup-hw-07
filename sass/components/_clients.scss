@@ -1,0 +1,34 @@
+.clients__list {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+  }
+  .clients__item {
+    width: 170px;
+    height: 92px;
+    border: 1px solid var(--main-icon-color);
+    border-radius: 4px;
+    transition: border-color var(--main-transition);
+    &:hover,
+    &:focus {
+    border-color: var(--active-color);
+  }
+  }
+
+  .clients__link {
+    width: 100%;
+    height: 100%;
+    color: var(--main-icon-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: color var(--main-transition);
+    &:hover,
+    &:focus {
+    color: var(--active-color);
+  }
+  }
+  
+  .clients__icon {
+    fill: currentColor;
+  }
